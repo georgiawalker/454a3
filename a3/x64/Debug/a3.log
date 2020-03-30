@@ -1,0 +1,53 @@
+﻿  arcballWindow.cpp
+  arrow.cpp
+  axes.cpp
+  bbox.cpp
+  bvh.cpp
+  eye.cpp
+  font.cpp
+  glverts.cpp
+  gpuProgram.cpp
+  light.cpp
+  linalg.cpp
+  main.cpp
+  material.cpp
+  object.cpp
+  scene.cpp
+  sphere.cpp
+  texture.cpp
+  triangle.cpp
+  vertex.cpp
+  wavefront.cpp
+C:\Users\Georgia W\Documents\Queen's\Third Year\CMPE 454\A3\454Assignment3\a3\wavefront.cpp(723,130): warning C4312: 'type cast': conversion from 'unsigned long' to 'const GLvoid *' of greater size
+C:\Users\Georgia W\Documents\Queen's\Third Year\CMPE 454\A3\454Assignment3\a3\wavefront.cpp(731,132): warning C4312: 'type cast': conversion from 'unsigned long' to 'const GLvoid *' of greater size
+  Generating Code...
+  Compiling...
+  wavefrontobj.cpp
+  Generating Code...
+C:\Users\Georgia W\Documents\Queen's\Third Year\CMPE 454\A3\454Assignment3\a3\wavefront.cpp(740,132): warning C4312: 'type cast': conversion from 'unsigned long' to 'const GLvoid *' of greater size
+  glad.c
+arcballWindow.obj : error LNK2019: unresolved external symbol glfwGetWindowUserPointer referenced in function "private: static void __cdecl arcballWindow::keyCallback(struct GLFWwindow *,int,int,int,int)" (?keyCallback@arcballWindow@@CAXPEAUGLFWwindow@@HHHH@Z)
+arcballWindow.obj : error LNK2019: unresolved external symbol glfwGetCursorPos referenced in function "private: static void __cdecl arcballWindow::mouseButtonCallback(struct GLFWwindow *,int,int,int)" (?mouseButtonCallback@arcballWindow@@CAXPEAUGLFWwindow@@HHH@Z)
+arcballWindow.obj : error LNK2019: unresolved external symbol glfwSetCursor referenced in function "private: static void __cdecl arcballWindow::keyCallback(struct GLFWwindow *,int,int,int,int)" (?keyCallback@arcballWindow@@CAXPEAUGLFWwindow@@HHHH@Z)
+arcballWindow.obj : error LNK2019: unresolved external symbol glfwSetCursorPosCallback referenced in function "private: static void __cdecl arcballWindow::mouseButtonCallback(struct GLFWwindow *,int,int,int)" (?mouseButtonCallback@arcballWindow@@CAXPEAUGLFWwindow@@HHH@Z)
+main.obj : error LNK2001: unresolved external symbol glfwSetCursorPosCallback
+main.obj : error LNK2019: unresolved external symbol glfwInit referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function "public: __cdecl arcballWindow::arcballWindow(int,int,int,int,char const *)" (??0arcballWindow@@QEAA@HHHHPEBD@Z)
+main.obj : error LNK2019: unresolved external symbol glfwWindowHint referenced in function "public: __cdecl arcballWindow::arcballWindow(int,int,int,int,char const *)" (??0arcballWindow@@QEAA@HHHHPEBD@Z)
+main.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function "public: __cdecl arcballWindow::arcballWindow(int,int,int,int,char const *)" (??0arcballWindow@@QEAA@HHHHPEBD@Z)
+main.obj : error LNK2019: unresolved external symbol glfwDestroyWindow referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwSetWindowPos referenced in function "public: __cdecl arcballWindow::arcballWindow(int,int,int,int,char const *)" (??0arcballWindow@@QEAA@HHHHPEBD@Z)
+main.obj : error LNK2019: unresolved external symbol glfwSetWindowUserPointer referenced in function "public: __cdecl arcballWindow::arcballWindow(int,int,int,int,char const *)" (??0arcballWindow@@QEAA@HHHHPEBD@Z)
+main.obj : error LNK2019: unresolved external symbol glfwSetWindowSizeCallback referenced in function "public: __cdecl arcballWindow::arcballWindow(int,int,int,int,char const *)" (??0arcballWindow@@QEAA@HHHHPEBD@Z)
+main.obj : error LNK2019: unresolved external symbol glfwPollEvents referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwCreateStandardCursor referenced in function "public: __cdecl arcballWindow::arcballWindow(int,int,int,int,char const *)" (??0arcballWindow@@QEAA@HHHHPEBD@Z)
+main.obj : error LNK2019: unresolved external symbol glfwSetKeyCallback referenced in function "public: __cdecl arcballWindow::arcballWindow(int,int,int,int,char const *)" (??0arcballWindow@@QEAA@HHHHPEBD@Z)
+main.obj : error LNK2019: unresolved external symbol glfwSetMouseButtonCallback referenced in function "public: __cdecl arcballWindow::arcballWindow(int,int,int,int,char const *)" (??0arcballWindow@@QEAA@HHHHPEBD@Z)
+main.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function "public: __cdecl arcballWindow::arcballWindow(int,int,int,int,char const *)" (??0arcballWindow@@QEAA@HHHHPEBD@Z)
+main.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function main
+scene.obj : error LNK2001: unresolved external symbol glfwSwapBuffers
+main.obj : error LNK2019: unresolved external symbol glfwSwapInterval referenced in function "public: __cdecl arcballWindow::arcballWindow(int,int,int,int,char const *)" (??0arcballWindow@@QEAA@HHHHPEBD@Z)
+main.obj : error LNK2019: unresolved external symbol glfwGetProcAddress referenced in function "public: __cdecl arcballWindow::arcballWindow(int,int,int,int,char const *)" (??0arcballWindow@@QEAA@HHHHPEBD@Z)
+lib32\glfw3.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Georgia W\Documents\Queen's\Third Year\CMPE 454\A3\454Assignment3\a3\x64\Debug\a3.exe : fatal error LNK1120: 21 unresolved externals
